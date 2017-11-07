@@ -1,0 +1,27 @@
+name: Intentio
+version: 1.6.0
+description: "Intentio is theme for meditation group"
+icon: empire
+author:
+  name: Juhana Kokkonen
+  email: juhana.kokkonen@metropolia.fi
+  url: http://intentio.group
+homepage: https://github.com/getgrav/grav-theme-antimatter
+demo: http://demo.getgrav.org/blog-skeleton
+keywords: intentio, theme, modern, fast, responsive, html5, css3, bootstrap
+bugs: https://github.com/getgrav/grav-theme-antimatter/issues
+license: MIT
+
+form:
+  validation: loose
+  fields:
+    dropdown.enabled:
+        type: toggle
+        label: Dropdown in navbar
+        highlight: 1
+        default: 1
+        options:
+          1: Enabled
+          0: Disabled
+        validate:
+          type: bool

@@ -1,0 +1,76 @@
+body {
+  line-height: 10px;
+  text-align: center;
+}
+
+h1 {
+  padding-bottom: 1em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2em ;
+  padding-bottom: 1em;
+}
+
+.hero {
+  background-image: url('../img/avaruus3.jpg');
+  border-bottom: solid;
+  border-width: 10px;
+}
+
+#introduction {
+  background-color: #e5edf9;
+  margin: 0px 300px 0px 300px;
+
+
+}
+
+.nav {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.9);
+  padding: 1em;
+  color: white;
+  z-index: 999;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+}
+
+.nav a {
+  color: white;
+  padding-right: 20px;
+}
+
+.animated1 {
+  color: black;
+  font-size: 40px;
+}
+
+.animated2 {
+  color: black;
+  font-size: 20px;
+}
+
+.credit {
+  text-align: justify;
+  color: white;
+}
+
+.credit2 {
+  text-align: justify;
+  color: white;
+  float: right;
+  padding-left: 300px;
+  float: right;
+}
+
+.langswitcher {
+    padding-left: 780px;
+
+    margin-bottom: auto;
+
+    margin-top: auto;
+
+}
